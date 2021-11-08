@@ -1,0 +1,33 @@
+.Form {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.Form-control {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.Form-control input {
+  max-width: 145px;
+  margin-top: 10px;
+}
+
+.Form input,
+.Form button {
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.Form-control__date {
+  padding: 7px;
+}
+
+.Form-control__distance, .Form-control__button-ok {
+  padding: 10px;
+}
+
+.Form-control__button-ok {
+  background-color: #ffffff;
+}

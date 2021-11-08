@@ -1,0 +1,27 @@
+.Table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Table th {
+  padding-bottom: 20px;
+
+  font-weight: 400;
+}
+
+.Table th:first-child {
+  text-align: left;
+}
+
+.Table th:first-child {
+  padding-left: 20px;
+}
+
+.Table th:last-child {
+  padding-right: 20px;
+}
+
+.Table tbody {
+  box-shadow: 0 0 0 1px black;
+  border-radius: 15px;
+}
