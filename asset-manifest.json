@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ra-hw-4.2-workout-accounting/static/css/main.0bc27267.chunk.css",
+    "main.js": "/ra-hw-4.2-workout-accounting/static/js/main.6893b44b.chunk.js",
+    "main.js.map": "/ra-hw-4.2-workout-accounting/static/js/main.6893b44b.chunk.js.map",
+    "runtime-main.js": "/ra-hw-4.2-workout-accounting/static/js/runtime-main.7c30ec0f.js",
+    "runtime-main.js.map": "/ra-hw-4.2-workout-accounting/static/js/runtime-main.7c30ec0f.js.map",
+    "static/js/2.53e98576.chunk.js": "/ra-hw-4.2-workout-accounting/static/js/2.53e98576.chunk.js",
+    "static/js/2.53e98576.chunk.js.map": "/ra-hw-4.2-workout-accounting/static/js/2.53e98576.chunk.js.map",
+    "static/js/3.2692f442.chunk.js": "/ra-hw-4.2-workout-accounting/static/js/3.2692f442.chunk.js",
+    "static/js/3.2692f442.chunk.js.map": "/ra-hw-4.2-workout-accounting/static/js/3.2692f442.chunk.js.map",
+    "index.html": "/ra-hw-4.2-workout-accounting/index.html",
+    "static/css/main.0bc27267.chunk.css.map": "/ra-hw-4.2-workout-accounting/static/css/main.0bc27267.chunk.css.map",
+    "static/js/2.53e98576.chunk.js.LICENSE.txt": "/ra-hw-4.2-workout-accounting/static/js/2.53e98576.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c30ec0f.js",
+    "static/js/2.53e98576.chunk.js",
+    "static/css/main.0bc27267.chunk.css",
+    "static/js/main.6893b44b.chunk.js"
+  ]
+}
