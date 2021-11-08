@@ -41,15 +41,36 @@ function App() {
         (workout) => getTime(workout.date) <= getTime(form.date)
       );
 
-      updatedWorkouts = [
-        ...workouts.slice(0, index),
-        {
-          id: nanoid(),
-          date: form.date,
-          distance: form.distance,
-        },
-        ...workouts.slice(index),
-      ];
+      if (index === -1) {
+        updatedWorkouts = [
+          ...workouts.slice(0, workouts.length),
+          {
+            id: nanoid(),
+            date: form.date,
+            distance: form.distance,
+          },
+        ];
+      } else if (getTime(workouts[index].date) === getTime(form.date)) {
+        updatedWorkouts = [
+          ...workouts.slice(0, index),
+          {
+            id: workouts[index].id,
+            date: workouts[index].date,
+            distance: String(+workouts[index].distance + +form.distance),
+          },
+          ...workouts.slice(index + 1),
+        ];
+      } else {
+        updatedWorkouts = [
+          ...workouts.slice(0, index),
+          {
+            id: nanoid(),
+            date: form.date,
+            distance: form.distance,
+          },
+          ...workouts.slice(index),
+        ];
+      }
     }
 
     setWorkouts(updatedWorkouts);
